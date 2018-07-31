@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ConvertToUTF8",
+		"Emmet",
+		"MarkdownEditing",
+		"MarkdownPreview",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-flake8"
+	]
+}
