@@ -1,2 +1,2 @@
-# personal-preferences
-My Personal Preferences
+# personal-config
+My Personal Config
