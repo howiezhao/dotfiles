@@ -1,2 +1,5 @@
+# 使用Intel风格
 set disassembly-flavor intel
+
+# 加载peda插件
 source ~/peda/peda.py

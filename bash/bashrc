@@ -115,7 +115,10 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# For WSL, set xlaunch
 export DISPLAY=:0
+
 # Launch Zsh
 if [ -t 1 ]; then
 exec zsh
