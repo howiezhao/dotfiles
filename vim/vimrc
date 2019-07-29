@@ -1,0 +1,48 @@
+" 显示行号
+set number
+
+" 语法高亮
+syntax enable
+
+" tab缩进
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set smarttab
+
+" 鼠标可用
+"set mouse=a
+
+" 配色方案
+set t_Co=256
+set background=dark
+colorscheme desert
+
+" 匹配模式
+set showmatch
+
+" 自动缩进
+set autoindent
+set smartindent
+
+" 显示命令
+set showcmd
+
+" vim-plug
+call plug#begin('~/.vim/plugged')
+
+function! BuildYCM(info)
+  " info is a dictionary with 3 fields
+  " - name:   name of the plugin
+  " - status: 'installed', 'updated', or 'unchanged'
+  " - force:  set on PlugInstall! or PlugUpdate!
+  if a:info.status == 'installed' || a:info.force
+    !./install.py
+  endif
+endfunction
+
+Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'mhinz/vim-startify'
+
+call plug#end()
