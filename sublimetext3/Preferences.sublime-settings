@@ -1,9 +1,24 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by syntax-specific settings.
 {
-	"font_size": 12,
-	"translate_tabs_to_spaces": true,
-	"highlight_line": true,
+    "font_face": "Sarasa Term SC",
+    "font_size": 12,
+
+    // Insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+
+    // Highlight any line with a caret
+    "highlight_line": true,
+
+    // Auto complete will commit the current completion on tab
     "auto_complete_commit_on_tab": true,
+
+    // Display file encoding in the status bar
     "show_encoding": true,
+
+    // List any packages to ignore here
+    "ignored_packages":
+    [
+        "Vintage"
+    ]
 }
