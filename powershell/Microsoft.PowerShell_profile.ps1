@@ -3,6 +3,8 @@ Import-Module posh-git
 # Import-Module oh-my-posh
 # Set-Theme Honukai
 
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+
 <#
 .Synopsis
 This function will set the proxy settings provided as input to the cmdlet.
@@ -76,4 +78,9 @@ Function Set-InternetProxy
 
         }
     }
+}
+
+function Get-PublicIP
+{
+    Invoke-RestMethod http://myip.dnsomatic.com
 }
