@@ -1,9 +1,31 @@
 # dotfiles
-My Personal Config, include:
+My personal software configuration, including:
 - Bash
-- Zsh
-- Vim
-- Tmux
-- Git
 - GDB
+- Git
+- iTerm2
+- PowerShell
 - Sublime Text 3
+- tmux
+- Vim
+- Windows Terminal
+- Zsh
+
+## Install
+### Windows
+```PowerShell
+.\link.ps1
+```
+### Linux/macOS
+```Shell
+./link.sh
+```
+## Uninstall
+### Windows
+```PowerShell
+.\unlink.ps1
+```
+### Linux/macOS
+```Shell
+./unlink.sh
+```

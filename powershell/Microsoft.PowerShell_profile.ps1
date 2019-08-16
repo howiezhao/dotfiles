@@ -1,7 +1,7 @@
 Import-Module posh-git
 
-# Import-Module oh-my-posh
-# Set-Theme Honukai
+Import-Module oh-my-posh
+Set-Theme Honukai
 
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 
