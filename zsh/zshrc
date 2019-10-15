@@ -97,9 +97,12 @@ source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighti
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias pubip="curl cip.cc"
 
 # For WSL, fix autojump bug
-unsetopt BG_NICE
-
-# For WSL, set xlaunch
-export DISPLAY=localhost:0
+#          set xlaunch
+case $(uname -a) in
+    *Microsoft*)
+        unsetopt BG_NICE
+        export DISPLAY=localhost:0 ;;
+esac
