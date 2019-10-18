@@ -11,4 +11,6 @@ ln -sf -b ~/dotfiles/zsh/zshrc ~/.zshrc
 ln -sf -b ~/dotfiles/gdb/gdbinit ~/.gdbinit
 
 # Link for Sublime Text 3
-ln -sf -b ~/dotfile/sublimetext3/Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+ln -sf -b ~/dotfiles/sublimetext3/Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+
+ln -sf -b ~/dotfiles/sublimetext3/'Package Control.sublime-settings' ~/.config/sublime-text-3/Packages/User/'Package Control.sublime-settings'

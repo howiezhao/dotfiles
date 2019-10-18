@@ -2,12 +2,11 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"SublimeCodeIntel"
 	],
 	"installed_packages":
 	[
-		"ConvertToUTF8",
 		"Emmet",
-		"MarkdownEditing",
 		"MarkdownPreview",
 		"Package Control",
 		"SideBarEnhancements",
