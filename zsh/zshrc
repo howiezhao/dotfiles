@@ -61,6 +61,7 @@ ZSH_THEME="ys"
 plugins=(
   git
   autojump
+  docker-compose
   zsh-autosuggestions
   zsh-completions
   zsh-syntax-highlighting
