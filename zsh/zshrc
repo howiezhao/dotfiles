@@ -99,6 +99,8 @@ source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighti
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias pubip="curl myip.ipip.net"
+# Ref: https://stackoverflow.com/questions/30539798/zsh-no-matches-found-requestssecurity
+alias pip='noglob pip'
 
 # For WSL, fix autojump bug
 #          set xlaunch
