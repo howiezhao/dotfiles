@@ -1,9 +1,7 @@
-Import-Module posh-git
-
-Import-Module oh-my-posh
 Set-Theme Honukai
 
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+Set-PSReadLineOption -PredictionSource History
 
 <#
 .Synopsis
@@ -82,5 +80,5 @@ Function Set-InternetProxy
 
 function Get-PublicIP
 {
-    Invoke-RestMethod http://myip.dnsomatic.com
+    Invoke-RestMethod https://myip.ipip.net
 }
