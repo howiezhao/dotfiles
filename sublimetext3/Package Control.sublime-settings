@@ -5,14 +5,18 @@
 	],
 	"installed_packages":
 	[
-		"ConvertToUTF8",
 		"Emmet",
-		"MarkdownEditing",
+		"HTML-CSS-JS Prettify",
+		"LiveReload",
 		"MarkdownPreview",
 		"Package Control",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
+		"SublimeHaskell",
 		"SublimeLinter",
+		"SublimeLinter-clang",
+		"SublimeLinter-contrib-markdownlint",
+		"SublimeLinter-contrib-yamllint",
 		"SublimeLinter-flake8"
 	]
 }

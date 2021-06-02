@@ -1,12 +1,13 @@
 {
 	"auto_complete_commit_on_tab": true,
 	"font_face": "Sarasa Term SC",
-	"font_size": 12,
+	"font_size": 13,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
 	"show_encoding": true,
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"word_wrap": true
 }
