@@ -1,4 +1,4 @@
-Set-Theme Honukai
+Set-PoshPrompt -Theme ys
 
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 Set-PSReadLineOption -PredictionSource History
@@ -81,4 +81,9 @@ Function Set-InternetProxy
 function Get-PublicIP
 {
     Invoke-RestMethod https://myip.ipip.net
+}
+
+function Get-AllHistory
+{
+    cat (Get-PSReadlineOption).HistorySavePath
 }
