@@ -1,7 +1,12 @@
-Set-PoshPrompt -Theme ys
+Import-Module posh-git
+Import-Module DockerCompletion
+Import-Module Carbon
+Import-Module windows-screenfetch
 
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 Set-PSReadLineOption -PredictionSource History
+
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\ys.omp.json" | Invoke-Expression
 
 <#
 .Synopsis
