@@ -6,7 +6,7 @@ Import-Module windows-screenfetch
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 Set-PSReadLineOption -PredictionSource History
 
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\ys.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config 'ys' | Invoke-Expression
 
 <#
 .Synopsis
